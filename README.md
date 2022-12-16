@@ -1,13 +1,20 @@
 # Onfido.Xamarin.Android
 Onfido.Xamarin.Android Binding
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 CSP Solutions https://www.cspsolutions.com/ Provides Software
 - DevOps Services
 - Integration Services
 - Xamarin Binding Libraries
 - AI DevOps
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Note: ************* Add reference to "onfido-capture-sdk-14.0.0.aar" it is around 45 MB, Github did allow to upload it 
+You can download this AAR Library and reference it in the solution under Jar folder
+
+Download from Maven
+https://repo1.maven.org/maven2/com/onfido/sdk/capture/onfido-capture-sdk/14.0.0/onfido-capture-sdk-14.0.0.aar
+https://mvnrepository.com/artifact/com.onfido.sdk.capture/onfido-capture-sdk/14.0.0
 
 // ONFIDO documentation https://documentation.onfido.com/sdk/android/
 
