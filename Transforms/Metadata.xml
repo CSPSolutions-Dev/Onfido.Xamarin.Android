@@ -1,0 +1,64 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+ 
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.component.active.video.capture.di.host']/class[@name='AvcNavigationModule_ProvideNavigationManagerHolderFactory']/method[@name='get' and count(parameter)=0]" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.flow']/class[@name='NfcArguments']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.component.active.video.capture.di.host']/class[@name='AVCHostModule_Companion_ProvideActiveVideoCaptureApiFactory']/method[@name='get' and count(parameter)=0]" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.component.active.video.capture.di.activeVideoCaptureFragment']/class[@name='ActiveVideoCaptureFragmentModule_Companion_ProvideRecorderWrapperFactory']/method[@name='provideRecorderWrapper' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]" />
+
+	<remove-node  path="/api/package[@name='com.onfido.android.sdk.capture.component.active.video.capture.di.host']/class[@name='AvcNavigationModule_ProvideNavigationManagerHolderFactory']/method[@name='provideNavigationManagerHolder' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options.stepbuilder.document']/class[@name='DrivingLicenceCaptureStepBuilder']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.internal.nfc.data']/class[@name='NfcPassportExtraction.Creator']"  />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.internal.validation']/class[@name='DocumentProcessingFailureCounts.Creator']"  />
+	<remove-node  path="/api/package[@name='com.onfido.android.sdk.capture.component.active.video.capture.di.activeVideoCaptureFragment']/class[@name='ActiveVideoCaptureFragmentModule_Companion_ProvideRecorderWrapperFactory']/method[@name='get' and count(parameter)=0]" />
+	<remove-node  path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.capture.flow']/class[@name='AutoCaptureMode.CaptureOnEdgeDetected.Creator']"/>
+	<remove-node   path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.capture.flow']/class[@name='AutoCaptureMode.Disabled.Creator']"/>
+	<remove-node  path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.capture.flow']/class[@name='DocumentOverlay.Auto.Creator']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.capture.flow']/class[@name='DocumentOverlay.Hardcoded.Creator']" />
+	<remove-node  path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.capture.flow']/class[@name='DocumentOverlay.None.Creator']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.capture.flow']/class[@name='FlowProgress.Creator']" />
+
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.capture.flow']/class[@name='ScreenConfig.Capture.Creator']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.capture.flow']/class[@name='ScreenConfig.CaptureInfo.Creator']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.capture.flow']/class[@name='ScreenConfig.Check.Creator']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.capture.flow']/class[@name='ScreenConfig.Info.Creator']" />
+	<remove-node  path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.capture.flow']/class[@name='ScreenConfig.Progress.Creator']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera.capture.flow']/class[@name='ScreenConfig.Result.Creator']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera']/class[@name='DoubleIntArrayEvaluator']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.nfc.model']/class[@name='NfcProperties.Creator']"  />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options.stepbuilder.document']/class[@name='GenericDocumentCaptureBuilder']" />
+
+	<remove-node  path="/api/package[@name='com.onfido.android.sdk.capture.ui.options.stepbuilder.document']/class[@name='NationalIdentityCaptureStepBuilder']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options.stepbuilder.document']/class[@name='ResidencePermitStepCaptureBuilder']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options.stepbuilder.document']/class[@name='VisaCaptureBuilder']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.options.stepbuilder.document']/class[@name='WorkPermitCaptureBuilder']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.restricteddocument.di']/class[@name='RestrictedDocumentSelectionHostNavigationModule_ProvideNavigationManagerHolderFactory']/method[@name='get' and count(parameter)=0]"  />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.restricteddocument.di']/class[@name='RestrictedDocumentSelectionHostNavigationModule_ProvideNavigationManagerHolderFactory']/method[@name='provideNavigationManagerHolder' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='java.lang.Object']]" />
+
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.camera']/interface[@name='CaptureUploadServiceListener']" />
+
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui']/class[@name='NfcDataService']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.nfc.scan']/class[@name='NfcScanPresenter_Factory_Impl']" />
+
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.nfc.scan']/class[@name='NfcScanPresenter_Factory']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.nfc']/class[@name='NfcHostViewModel_Factory']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.nfc']/class[@name='NfcDataRepository_Factory']" />
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui.nfc']/class[@name='NfcDataRepository']" />
+
+	<remove-node path="/api/package[@name='com.onfido.android.sdk.capture.ui']/interface[@name='NfcDataServiceListener']" />
+	<!--
+ 	<remove-node  />
+	<remove-node  />
+		<remove-node  />
+	<remove-node  />
+	<remove-node  />-->
+	 
+
+</metadata>
